@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<% content_for :javascript_includes do %> <%= javascript_include_tag "index.js" %> <% end %>
+<body class = "black">
+<div class = "center col s12">
+	<%= image_tag('sun_mercury.png', :id => 'sun_mercury', :alt => 'sun and mercury') %>
+	<%= image_tag('venus.png', :id => 'venus', :alt => 'venus') %>
+	<%= image_tag('earth.png', :id => 'earth', :alt => 'earth') %>
+	<%= image_tag('mars.png', :id => 'mars', :alt => 'mars') %>
+	<%= image_tag('jupiter.png', :id => 'jupiter', :alt => 'jupiter') %>
+	<%= image_tag('saturn.png', :id => 'saturn', :alt => 'saturn') %>
+	<%= image_tag('uranus.png', :id => 'uranus', :alt => 'uranus') %>
+	<%= image_tag('neptune.png', :id => 'neptune', :alt => 'neptune') %>
+</div>
+<div id = "a_div" class = "center col s12"><h3 class = "white-text"> Take a trip to another world. </h3></div>
+</body>
